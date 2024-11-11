@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Header() {
     const[hamMenuActive, setHamMenuActive] = React.useState(false)
@@ -29,7 +29,7 @@ export default function Header() {
                 <div className="header__logo-container">
                     <div className="header__logo-img-cont">
                         <img
-                        src="../assets/images/Me_Golfing.png"
+                        src="./assets/images/Me_Golfing.png"
                         alt="image of carlos"
                         className="header__logo-img"
                         />
