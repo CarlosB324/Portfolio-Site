@@ -1,6 +1,8 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import myAvatar from "../assets/images/Me_Golfing.png"
+import hamImg from "../assets/svg/ham-menu.svg"
+import closeHamImg from "../assets/svg/ham-menu-close.svg"
 
 export default function Header() {
     const[hamMenuActive, setHamMenuActive] = React.useState(false)
@@ -82,7 +84,7 @@ export default function Header() {
                             onClick={openHamMenu}
                         >
                             <img
-                                src="../assets/svg/ham-menu.svg"
+                                src={hamImg}
                                 alt="hamburger menu"
                                 className="header__main-ham-menu"
                             />
@@ -92,7 +94,7 @@ export default function Header() {
                             onClick={closeHamMenu}
                         >
                             <img
-                                src="../assets/svg/ham-menu-close.svg"
+                                src={closeHamImg}
                                 alt="hamburger menu close"
                                 className="header__main-ham-menu-close"
                             />
