@@ -198,7 +198,7 @@ li {
 /* Home Section */
 .home-hero {
     color: #fff;
-    background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(../../assets/svg/common-bg.svg);
+    background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(./assets/svg/common-bg.svg);
     background-position: center;
     height: 100vh;
     min-height: 80rem;
@@ -489,7 +489,7 @@ li {
         
 /* Contact Section */
 .contact {
-    background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+    background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(./assets/svg/common-bg.svg);
     background-size: cover;
     background-position: center;
     height: 100vh;

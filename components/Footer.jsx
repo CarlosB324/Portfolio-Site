@@ -1,5 +1,6 @@
 import React from "react" 
-import { Link } from "react-router-dom"
+import linkedinIcon from "../assets/images/icon/linkedin-ico.png"
+import githubIcon from "../assets/images/icon/github-ico.png"
 
 export default function Footer() {
     return (
@@ -18,7 +19,7 @@ export default function Footer() {
                             >
                                 <img
                                     className="main-footer__icon"
-                                    src="../assets/images/icon/linkedin-ico.png"
+                                    src={linkedinIcon}
                                     alt="icon"
                                 />
                             </a>
@@ -29,7 +30,7 @@ export default function Footer() {
                             >
                                 <img
                                     className="main-footer__icon"
-                                    src="../assets/images/icon/github-ico.png"
+                                    src={githubIcon}
                                     alt="icon"
                                 />
                             </a>
