@@ -49,7 +49,7 @@ export default function Projects() {
         <div className="projects__row" key={website.id}>
             <div className="projects__row-img-cont">
                 <img
-                    src={`../assets/images/${website.image}`}
+                    src={website.image}
                     alt="Software Screenshot"
                     className="projects__row-img"
                     loading="lazy"
