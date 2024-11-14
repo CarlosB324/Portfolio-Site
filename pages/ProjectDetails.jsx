@@ -63,7 +63,7 @@ export default function ProjectDetails() {
                     <div className="project-details__content">
                         <div className="project-details__showcase-img-cont">
                             <img
-                                src={`../assets/images/${website.image}`}
+                                src={website.image}
                                 alt="Project Image"
                                 className="project-details__showcase-img"
                             />
@@ -90,6 +90,13 @@ export default function ProjectDetails() {
                                 >
                                     Live Link
                                 </a>
+                                {website.codeLink && <a
+                                    href={website.codeLink}
+                                    className="btn btn--med btn--theme-inv project-details__links-btn"
+                                    target="_blank"
+                                >
+                                    Code Link
+                                </a>}
                             </div>
                         </div>
                     </div>
@@ -100,10 +107,3 @@ export default function ProjectDetails() {
         </>
     )
 }
-                                // <a
-                                //     href="#"
-                                //     className="btn btn--med btn--theme-inv project-details__links-btn"
-                                //     target="_blank"
-                                // >
-                                //     Code Link
-                                // </a>
